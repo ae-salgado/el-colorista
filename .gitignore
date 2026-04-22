@@ -4,9 +4,15 @@ __pycache__/
 build/
 dist/
 wheels/
-*.egg-info
-.python-version
+*.egg-info/
 
 # Virtual environments
-.venv
+.venv/
 .env
+
+# IDEs (PyCharm / VS Code)
+.idea/
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/

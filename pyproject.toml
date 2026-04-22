@@ -1,7 +1,21 @@
 [project]
 name = "el-colorista"
 version = "0.1.0"
-description = "Add your description here"
+description = "Extract the real color palette from any image"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "colorspacious>=1.1.2",
+    "colorthief>=0.2.1",
+    "markdown>=3.10.2",
+    "ollama>=0.6.1",
+    "pillow>=12.2.0",
+    "pydantic>=2.13.3",
+    "rich>=15.0.0",
+    "wcag-contrast-ratio>=0.9",
+]
+
+[tool.uv.workspace]
+members = [
+    "el-colorista",
+]
